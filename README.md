@@ -1,9 +1,6 @@
 # VerAIzon
 RAG (Retrieval Augmented Generation) chatbot accompanied with Mistral-7B, specifically tailored for Verizon customer services.
 
-# Dataset
-Data was gathered through the iterative extraction using the data_extraction.py file. The code intially begins with just 2 links - ['https://www.verizon.com/home/internet/','https://community.verizon.com/'] and then at run-time it scrapes all the links in these two web-pages and this process goes on, creating about a dataset of 1000 pages. Another source of data are the user-guides available at https://www.verizon.com/about/terms-conditions/user-guides.
-
 # ChatBot procedure
 
 <img align="center" src="images/workflow.png" alt="Workflow">
@@ -42,3 +39,8 @@ Now this prompt is passed to the LLM in order to get the output. The LLM that we
 1. Git clone this repository.
 2. change the db paths in .py files.
 3. First run ingest.py followed by model.py file.
+
+# Our System Specification
+
+1. 48 GB RAM
+2. A100 40 GB vRAM
